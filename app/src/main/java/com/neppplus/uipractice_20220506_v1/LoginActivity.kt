@@ -31,6 +31,7 @@ class LoginActivity : AppCompatActivity() {
             if (inputId.isNotBlank() && inputPw.isNotBlank()) {
                 val myIntent = Intent(this, MainActivity::class.java)
                 startActivity(myIntent)
+                finish()
 //            4. id, pw가 공백이 아닐시 환영문구 Toast, 공백일 시 틀린문구 Toast
                 Toast.makeText(this, this.getText(R.string.welcome), Toast.LENGTH_SHORT).show()
             } else {
