@@ -7,5 +7,6 @@
     <string name="loginBtn">로그인</string>
     <string name="logoutBtn">로그아웃</string>
     <string name="autoLoginCb">자동 로그인</string>
-    <string name="welCome">환영합니다.</string>
+    <string name="welcome">환영합니다.</string>
+    <string name="faultValue">아이디 비번을 확인해주세요.</string>
 </resources>
