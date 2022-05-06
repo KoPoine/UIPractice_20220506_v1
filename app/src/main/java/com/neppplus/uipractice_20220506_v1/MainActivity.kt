@@ -3,6 +3,7 @@ package com.neppplus.uipractice_20220506_v1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.neppplus.uipractice_20220506_v1.utils.ContextUtil
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         logoutBtn.setOnClickListener {
             val myIntent = Intent(this, LoginActivity::class.java)
             startActivity(myIntent)
+//            2.메인 액티비티 로그아웃 시 ContextUtil에 있는 모든 정보 삭제
+            ContextUtil.clear(this)
             finish()
         }
     }
