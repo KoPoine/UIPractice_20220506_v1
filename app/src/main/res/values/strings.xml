@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">UIPractice_20220506_v1</string>
+    <string name="inputIdTxt">아이디</string>
+    <string name="inputIdHint">아이디 입력</string>
+    <string name="inputPwTxt">비밀번호</string>
+    <string name="inputPwHint">비밀번호 입력</string>
+    <string name="loginBtn">로그인</string>
+    <string name="logoutBtn">로그아웃</string>
+    <string name="autoLoginCb">자동 로그인</string>
+    <string name="welCome">환영합니다.</string>
 </resources>
