@@ -12,7 +12,7 @@ class ContextUtil {
 //    3. set 함수 생성
         fun setAutoLogin(context: Context, autoLogin: Boolean) {
             val pref = context.getSharedPreferences(prefName, Context.MODE_PRIVATE)
-            pref.edit().putBoolean(AUTO_LOGIN, autoLogin)
+            pref.edit().putBoolean(AUTO_LOGIN, autoLogin).apply()
         }
 
 //    4. get 함수 생성 -> 함수 옆에 자료형을 붙여주어 return으로 결과값을 부여하자.
